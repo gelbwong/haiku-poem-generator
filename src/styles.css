@@ -60,8 +60,13 @@ form {
   font-size: 17px;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
+a {
+  color: rgb(148, 182, 148);
+}
 footer {
   text-align: center;
   font-family: monospace;
   padding: 20px;
+  line-height: 2;
+  color: rgb(39, 38, 38);
 }
