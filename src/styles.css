@@ -23,12 +23,14 @@ body {
 form,
 .ai-response {
   border-radius: 20px;
+  color: #c7beb0;
 }
 
 form {
   padding: 20px;
   background-color: #2439295c;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 .search-box,
 .enter-button {
@@ -37,6 +39,8 @@ form {
   border: 0px;
   border-radius: 3px;
   background-color: #c7beb0b9;
+  color: #d3d3d3;
+  color: #152819;
 }
 .search-box {
   width: 67%;
@@ -52,6 +56,9 @@ form {
   line-height: 28px;
   margin-bottom: 25px;
   border-left: #243929 4px solid;
+  color: #152819;
+  font-size: 17px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 footer {
   text-align: center;
