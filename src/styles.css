@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  height: 100%;
+}
+body {
+  background: linear-gradient(
+    109.6deg,
+    rgb(251, 250, 225) 11.2%,
+    rgb(206, 240, 185) 47.5%,
+    rgb(100, 163, 111) 100.2%
+  );
+  height: 100%;
+}
+
+.container {
+  max-width: 700px;
+  margin: 0 auto;
+  margin-top: 30px;
+  border: 1px solid black;
+}
+
+.title {
+  font-family: "Yeseva One";
+  font-size: 50px;
+  text-align: center;
+  color: #243929;
+}
