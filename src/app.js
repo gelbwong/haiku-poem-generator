@@ -11,11 +11,11 @@ function runApi(event) {
   key = "a5ca0d6dt74bbobcf0c9aa390574f791";
   let prompt = `Can you find me a book with the topics of ${userInput}`;
   context =
-    "You are a library AI assistant, that enjoys to give readers with unique reading suggestions with conceise reasoning";
+    "You are a library AI assistant, that enjoys to give readers with 2 unique reading suggestions with conceise reasoning, please give your response in basic html and sign off with SheCodes AI";
   apiUrl = `https://api.shecodes.io/ai/v1/generate?prompt=${prompt}&context=${context}&key=${key}`;
 
   new Typewriter("#ai-feedback", {
-    strings: "Please be patient while the joke is being generated ❤️",
+    strings: "Please be patient while the AI is thinking ❤️",
     autoStart: true,
     delay: 10,
     cursor: "",
